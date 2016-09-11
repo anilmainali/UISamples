@@ -1,0 +1,31 @@
+Virtual User Script started at : 2016-09-11 13:49:32
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, initialized on 2016/09/11 at 13:49:32 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00002112ms: ** 2: If (true) ** started    [MsgId: MMSG-205180]
+t=00002637ms: ** 2.1: Navigate to "http://www.jqwidgets.co...oltip/index.htm" ** started    [MsgId: MMSG-205180]
+t=00006102ms: ** 2.1: Navigate to http://www.jqwidgets.com...ooltip/index.htm ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00006156ms: ** 2.2: Mouse Over ** started    [MsgId: MMSG-205180]
+t=00006667ms: ** 2.2.1: Move mouse over element (1)  ** started    [MsgId: MMSG-205180]
+t=00027411ms: ** 2.2.1: Move mouse over element (1)  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00028016ms: ** 2.2.2: Move mouse over image (1) image ** started    [MsgId: MMSG-205180]
+t=00028459ms: ** 2.2.2: Move mouse over image (1) image ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00028489ms: ** 2.2: Mouse Over ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00028570ms: ** 2: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00028587ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
+t=00029120ms: ** 3.1: Navigate to "http://jqueryui.com/tooltip/" ** started    [MsgId: MMSG-205180]
+t=00037420ms: ** 3.1: Navigate to http://jqueryui.com/tooltip/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00037830ms: ** 3.3: Mouse Over ** started    [MsgId: MMSG-205180]
+t=00038363ms: ** 3.3.1: Move mouse over But as it's not a native...  ** started    [MsgId: MMSG-205180]
+t=00038758ms: ** 3.3.1: Move mouse over But as it's not a native...  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00039283ms: ** 3.3.2: Move mouse over Tooltips are also useful...  ** started    [MsgId: MMSG-205180]
+t=00039718ms: ** 3.3.2: Move mouse over Tooltips are also useful...  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00040320ms: ** 3.3.3: Move mouse over Tooltips can be attached...  ** started    [MsgId: MMSG-205180]
+t=00040521ms: ** 3.3.3: Move mouse over Tooltips can be attached...  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00041038ms: ** 3.3.4: Move mouse over Tooltips are also useful...  ** started    [MsgId: MMSG-205180]
+t=00041349ms: ** 3.3.4: Move mouse over Tooltips are also useful...  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00041357ms: ** 3.3: Mouse Over ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00041390ms: ** 3: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

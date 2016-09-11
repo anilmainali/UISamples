@@ -1,0 +1,43 @@
+Virtual User Script started at : 2016-09-11 13:32:27
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, initialized on 2016/09/11 at 13:32:27 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00000789ms: ** 1: If (true) ** started    [MsgId: MMSG-205180]
+t=00001304ms: ** 1.1: Navigate to "http://jqueryui.com/slider/" ** started    [MsgId: MMSG-205180]
+t=00002907ms: ** 1.1: Navigate to http://jqueryui.com/slider/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00003417ms: ** 1.2: Drag  focusable (1)   205 px right ** started    [MsgId: MMSG-205180]
+t=00011163ms: ** 1.2: Drag  focusable (1)   205 px right ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00011183ms: ** 1: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00011199ms: ** 2: If (true) ** started    [MsgId: MMSG-205180]
+t=00011779ms: ** 2.1: Navigate to "http://www.jqwidgets.co...lider/index.htm" ** started    [MsgId: MMSG-205180]
+t=00014501ms: ** 2.1: Navigate to http://www.jqwidgets.com...slider/index.htm ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00015091ms: ** 2.3: Drag  0   131 px right ** started    [MsgId: MMSG-205180]
+t=00016544ms: ** 2.3: Drag  0   131 px right ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00016609ms: ** 2.5: Verify  #8E00FF's "Visible Text" Contain "#9900FF" ** started    [MsgId: MMSG-205180]
+t=00016924ms: ** 2.5: Verify  #8E00FF's "Visible Text" Contain "#9900FF" ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00016967ms: ** 2: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00017018ms: ** 3: If (true) ** started    [MsgId: MMSG-205180]
+t=00017553ms: ** 3.1: Navigate to "http://yuilibrary.com/y...ider-basic.html" ** started    [MsgId: MMSG-205180]
+t=00020053ms: ** 3.1: Navigate to http://yuilibrary.com/yu...lider-basic.html ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00020688ms: ** 3.3: Set Slider thumb slider to 50 ** started    [MsgId: MMSG-205180]
+t=00021268ms: ** 3.3: Set Slider thumb slider to 50 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00021295ms: ** 3.4: Verify  Value's "Visible Text" Contain "50" ** started    [MsgId: MMSG-205180]
+t=00021598ms: ** 3.4: Verify  Value's "Visible Text" Contain "50" ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00022118ms: ** 3.5: Set Slider thumb slider to 83 ** started    [MsgId: MMSG-205180]
+t=00022655ms: ** 3.5: Set Slider thumb slider to 83 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00022704ms: ** 3.6: Verify  Value's "Visible Text" Contain "83" ** started    [MsgId: MMSG-205180]
+t=00022898ms: ** 3.6: Verify  Value's "Visible Text" Contain "83" ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00022906ms: ** 3: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00022929ms: ** 4: If (false) ** started    [MsgId: MMSG-205180]
+t=00022941ms: ** 4: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00022948ms: ** 7: If (true) ** started    [MsgId: MMSG-205180]
+t=00023464ms: ** 7.1: Navigate to "http://zinoui.com/demos/slider" ** started    [MsgId: MMSG-205180]
+t=00027210ms: ** 7.1: Navigate to http://zinoui.com/demos/slider ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00027721ms: ** 7.2: Drag  focusable (2)   105 px right ** started    [MsgId: MMSG-205180]
+t=00028817ms: ** 7.2: Drag  focusable (2)   105 px right ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00028825ms: ** 7.3: Verify  Remote Demo's "Visible Text" Contain "68" ** started    [MsgId: MMSG-205180]
+t=00029080ms: ** 7.3: Verify  Remote Demo's "Visible Text" Contain "68" ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00029091ms: ** 7: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

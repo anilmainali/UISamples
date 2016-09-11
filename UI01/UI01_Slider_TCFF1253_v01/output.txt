@@ -1,0 +1,11 @@
+Virtual User Script started at : 2016-09-11 13:37:42
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, initialized on 2016/09/11 at 13:37:39 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003203ms: ** 1: If (true) ** started    [MsgId: MMSG-205180]
+t=00003723ms: ** 1.1: Navigate to "http://jqueryui.com/slider/" ** started    [MsgId: MMSG-205180]
+t=00006264ms: Warning -204676: Failed to connect to server "ocsp2.globalsign.com": Connection timed out    [MsgId: MWAR-204676]
+t=00006264ms: Warning -204676: Failed to connect to server "ocsp2.globalsign.com": Connection timed out    [MsgId: MWAR-204676]
+t=00010123ms: ** 1.1: Navigate to http://jqueryui.com/slider/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00010660ms: ** 1.2: Drag  focusable (1)   205 px right ** started    [MsgId: MMSG-205180]
+Ending Vuser...

@@ -1,0 +1,26 @@
+Virtual User Script started at : 2016-09-11 13:19:09
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, initialized on 2016/09/11 at 13:19:08 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00002146ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
+t=00002168ms: ** 2: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00002184ms: ** 3: If (false) ** started    [MsgId: MMSG-205180]
+t=00002212ms: ** 3: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00002222ms: ** 4: If (false) ** started    [MsgId: MMSG-205180]
+t=00002247ms: ** 4: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00002259ms: ** 5: If (false) ** started    [MsgId: MMSG-205180]
+t=00002283ms: ** 5: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00002312ms: ** 6: If (false) ** started    [MsgId: MMSG-205180]
+t=00002320ms: ** 6: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00002348ms: ** 7: If (true) ** started    [MsgId: MMSG-205180]
+t=00002863ms: ** 7.1: Navigate to "http://www.primefaces.o...imeui/menu.html" ** started    [MsgId: MMSG-205180]
+t=00003620ms: Navigate failed on url undefined with errorCode = 404    [MsgId: MMSG-205180]
+t=00003621ms: Navigate failed on url undefined with errorCode = 404    [MsgId: MMSG-205180]
+t=00003623ms: Navigate failed on url undefined with errorCode = 404    [MsgId: MMSG-205180]
+t=00003624ms: Navigate failed on url undefined with errorCode = 404    [MsgId: MMSG-205180]
+t=00003625ms: Navigate failed on url undefined with errorCode = 404    [MsgId: MMSG-205180]
+t=00003855ms: Error -205177: ** 7.1: Navigate to http://www.primefaces.or...rimeui/menu.html ** failed - end event error due to HTTP status code : 404       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00003870ms: ** 7: If (true) ** was aborted due to an error in a child step    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

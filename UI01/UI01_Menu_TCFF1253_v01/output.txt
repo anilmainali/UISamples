@@ -1,0 +1,26 @@
+Virtual User Script started at : 2016-09-11 13:23:09
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, initialized on 2016/09/11 at 13:23:01 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00007592ms: ** 2: If (false) ** started    [MsgId: MMSG-205180]
+t=00007597ms: ** 2: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00007599ms: ** 3: If (false) ** started    [MsgId: MMSG-205180]
+t=00007604ms: ** 3: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00007605ms: ** 4: If (false) ** started    [MsgId: MMSG-205180]
+t=00007608ms: ** 4: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00007610ms: ** 5: If (false) ** started    [MsgId: MMSG-205180]
+t=00007615ms: ** 5: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00007617ms: ** 6: If (false) ** started    [MsgId: MMSG-205180]
+t=00007621ms: ** 6: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00007623ms: ** 7: If (true) ** started    [MsgId: MMSG-205180]
+t=00008131ms: ** 7.1: Navigate to "http://www.primefaces.o...imeui/menu.html" ** started    [MsgId: MMSG-205180]
+t=00008664ms: Navigate failed on url undefined with errorCode = 404    [MsgId: MMSG-205180]
+t=00008664ms: Navigate failed on url undefined with errorCode = 404    [MsgId: MMSG-205180]
+t=00008664ms: Navigate failed on url undefined with errorCode = 404    [MsgId: MMSG-205180]
+t=00008664ms: Navigate failed on url undefined with errorCode = 404    [MsgId: MMSG-205180]
+t=00008664ms: Navigate failed on url undefined with errorCode = 404    [MsgId: MMSG-205180]
+t=00008859ms: Error -205177: ** 7.1: Navigate to http://www.primefaces.or...rimeui/menu.html ** failed - end event error due to HTTP status code : 404    [MsgId: MERR-205177]
+t=00008894ms: ** 7: If (true) ** was aborted due to an error in a child step    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

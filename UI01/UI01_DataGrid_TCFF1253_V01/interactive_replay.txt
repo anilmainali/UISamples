@@ -1,0 +1,16 @@
+Virtual User Script started at : 2016-09-11 13:14:09
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, initialized on 2016/09/11 at 13:14:09 (0000.000s)
+Warning: The "vuser_init" section contains step(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations.
+Running Vuser...
+Starting iteration 1.
+t=00001664ms: ** 2: If (true) ** started    [MsgId: MMSG-205180]
+Notify: Transaction "T01_Landing" started.
+t=00002174ms: ** 2.1: Navigate to 'http://' +  TC.getParam...c/example1.html' ** started    [MsgId: MMSG-205180]
+t=00003225ms: ** 2.1: Navigate to http://reconstrukt.com/i...rc/example1.html ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "T01_Landing" ended with a "Pass" status (Duration: 1.0600 Wasted Time: 0.2000).
+t=00003759ms: ** 2.2: Evaluate JavaScript [Code] on 0 : pg 1 : row 0 : col...  ** started    [MsgId: MMSG-205180]
+t=00004255ms: ** 2.2: Evaluate JavaScript [Code] on 0 : pg 1 : row 0 : col...  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00004268ms: ** 2: If (true) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

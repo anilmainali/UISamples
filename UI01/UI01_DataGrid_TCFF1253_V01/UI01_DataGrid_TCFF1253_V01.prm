@@ -1,0 +1,8 @@
+[parameter:host_reconstrukt_com]
+CurrentValue="reconstrukt.com"
+IsEncrypt="NO"
+IsServer="NO"
+OriginalValue="reconstrukt.com"
+ParamName="host_reconstrukt_com"
+Prompt=""
+Type="Custom"
